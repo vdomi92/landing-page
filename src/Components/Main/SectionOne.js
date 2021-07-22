@@ -18,8 +18,8 @@ export default function SectionOne() {
       ></div>
       <div className='mt-5 productLinkDiv productContainer'>
         <h1 className='text-center headingOne'>DiLo. A víz a mindenünk.</h1>
-        <div className='row'>
-          <Link to='/' className='col-md-6 link-light productLink mt-5 '>
+        <div className='row prodLinkContainer'>
+          <Link to='/' className='col-xl-6 link-light productLink mt-5 '>
             <div
               className='text-center showerProductDiv'
               style={{
@@ -27,14 +27,13 @@ export default function SectionOne() {
                 backgroundPosition: 'center',
                 backgroundSize: '100%',
                 backgroundRepeat: 'no-repeat',
-                height: '40vh',
               }}
             >
               Fürdőszobai termékek
             </div>
           </Link>
 
-          <Link to='/' className='col-md-6 link-light productLink mt-5'>
+          <Link to='/' className='col-xl-6 link-light productLink mt-5'>
             <div
               className='text-center kitchenProductDiv '
               style={{
@@ -42,7 +41,8 @@ export default function SectionOne() {
                 backgroundPosition: 'center',
                 backgroundSize: '100%',
                 backgroundRepeat: 'no-repeat',
-                height: '40vh',
+                minWidth: '450px',
+                minHeight: '340px',
               }}
             >
               Konyhai termékek
