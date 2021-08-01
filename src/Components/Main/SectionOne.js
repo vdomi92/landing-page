@@ -8,12 +8,12 @@ export default function SectionOne() {
   return (
     <>
       <div
+        className='firstDiv'
         style={{
           backgroundImage: `url(${Background})`,
           backgroundPosition: 'center',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
-          height: '90vh',
         }}
       ></div>
       <div className='mt-5 productLinkDiv productContainer'>
@@ -29,7 +29,7 @@ export default function SectionOne() {
                 backgroundRepeat: 'no-repeat',
               }}
             >
-              Fürdőszobai termékek
+              <span className='imgSpan'>Fürdőszoba</span>
             </div>
           </Link>
 
@@ -41,11 +41,9 @@ export default function SectionOne() {
                 backgroundPosition: 'center',
                 backgroundSize: '100%',
                 backgroundRepeat: 'no-repeat',
-                minWidth: '450px',
-                minHeight: '340px',
               }}
             >
-              Konyhai termékek
+              <span className='imgSpan'>Konyha</span>
             </div>
           </Link>
         </div>
