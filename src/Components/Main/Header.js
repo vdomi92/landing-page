@@ -54,7 +54,10 @@ export default function Header() {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link className='nav-link link-light' to='/'>
+              <Link
+                className='nav-link link-light'
+                to='https://www.facebook.com'
+              >
                 <img
                   src={faceIcon}
                   alt='Dilo Szaniter a Facebookon'
@@ -63,7 +66,10 @@ export default function Header() {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link className='nav-link link-light' to='/'>
+              <Link
+                className='nav-link link-light'
+                to='https://www.instagram.com'
+              >
                 <img
                   src={instaIcon}
                   alt='Dilo Szaniter az Instagramon'

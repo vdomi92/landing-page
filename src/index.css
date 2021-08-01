@@ -393,7 +393,7 @@ code {
     padding: 0;
   }
   .footerContainer {
-    height: 100vh;
+    min-height: 100vh;
     min-width: 450px;
   }
   .mobileOnly {
