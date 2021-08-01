@@ -25,7 +25,7 @@ export default function SectionOne() {
               style={{
                 backgroundImage: `url(${ShowerProductsImg})`,
                 backgroundPosition: 'center',
-                backgroundSize: '100%',
+                backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
               }}
             >
@@ -39,7 +39,7 @@ export default function SectionOne() {
               style={{
                 backgroundImage: `url(${KitchenProductsImg})`,
                 backgroundPosition: 'center',
-                backgroundSize: '100%',
+                backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
               }}
             >
