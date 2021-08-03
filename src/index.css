@@ -13,10 +13,107 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.firstDiv {
+.slideShowDiv {
   height: calc(100vh - 60px - 1rem);
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  overflow: hidden;
 }
-
+.slideElement {
+  height: calc(100vh - 60px - 1rem);
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border: 1px solid transparent;
+  position: absolute;
+}
+.slideShowFirst {
+  animation: backgroundAnimation1 15s infinite;
+}
+.slideShowSecond {
+  animation: backgroundAnimation2 15s infinite;
+}
+.slideShowThird {
+  animation: backgroundAnimation3 15s infinite;
+}
+@keyframes backgroundAnimation1 {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    z-index: 100;
+  }
+  32.99% {
+    opacity: 1;
+    z-index: 100;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  33% {
+    opacity: 0;
+    z-index: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes backgroundAnimation2 {
+  0% {
+    opacity: 0;
+    z-index: 0;
+  }
+  33% {
+    opacity: 0;
+    z-index: 0;
+  }
+  34% {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    z-index: 100;
+  }
+  65.99% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    z-index: 100;
+  }
+  66% {
+    opacity: 0;
+    z-index: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes backgroundAnimation3 {
+  0% {
+    opacity: 0;
+    z-index: 0;
+  }
+  66% {
+    opacity: 0;
+    z-index: 0;
+  }
+  67% {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    z-index: 100;
+  }
+  99.99% {
+    opacity: 1;
+    z-index: 100;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
 .productLink {
   text-decoration: none;
   font-size: 42px;
@@ -91,7 +188,8 @@ code {
 }
 .newProductsContainer {
   width: 870px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   height: 570px;
   overflow: hidden;
 }
