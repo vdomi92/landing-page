@@ -9,7 +9,7 @@ export default function DescriptionOne() {
       <h2 className='descriptionPartOneHeading mb-4'>
         Modern dizájn és frissítően minőségi termékek
       </h2>
-      <p className='descriptionParOneParagraph mb-5'>
+      <p className='descriptionPartOneParagraph mb-5'>
         Ha szereti az esztétikus formatervezésű fürdőszobai és konyhai
         termékeket, és nagy hangsúlyt fektet a kiváló minőségre, akkor nálunk jó
         helyen jár. A DiLo prémium zuhany-, fürdőszobai és konyhai termékek

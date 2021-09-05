@@ -76,8 +76,8 @@ const Footer = () => {
         <section className='footerCol4'>
           <h5 className='footerHeading'>Követés</h5>
           <a
-            href='https://www.instagram.com
-'
+            href='https://www.instagram.com'
+            rel='noreferrer'
             target='_blank'
             className='footerContent footerLink'
           >
@@ -85,6 +85,7 @@ const Footer = () => {
           </a>
           <a
             href='https://www.facebook.com'
+            rel='noreferrer'
             target='_blank'
             className='footerContent footerLink'
           >
