@@ -5,6 +5,7 @@ const GoogleMapEmbed = () => {
     <div className='mapouter'>
       <div className='gmap_canvas'>
         <iframe
+          title='googleMap'
           width='100%'
           height='750'
           id='gmap_canvas'

@@ -48,11 +48,7 @@ export default function Header() {
                 Szolgáltatások
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link className='nav-link link-light' to='/'>
-                Regisztráció
-              </Link>
-            </li>
+
             <li className='nav-item'>
               <Link
                 className='nav-link link-light'

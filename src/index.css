@@ -235,10 +235,6 @@ code {
   width: 290px;
 }
 
-.divNewProductsResp {
-  overflow: hidden;
-}
-
 @media screen and (min-width: 900px) {
   .divNewProductsResp {
     width: 580px;
